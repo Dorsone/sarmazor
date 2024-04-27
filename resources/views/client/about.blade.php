@@ -103,9 +103,6 @@
                                     <div class="col-md-12">
                                         <div class="themesflat-spacer clearfix" data-desktop="41" data-mobile="35"
                                              data-smobile="35"></div>
-                                        <div class="elm-button text-center">
-                                            <a href="#" class="themesflat-button bg-accent">ABOUT US</a>
-                                        </div>
                                         <div class="themesflat-spacer clearfix" data-desktop="73" data-mobile="60"
                                              data-smobile="60"></div>
                                     </div><!-- /.col-md-12 -->

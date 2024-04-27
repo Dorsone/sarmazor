@@ -1,8 +1,9 @@
 <?php
 
+use App\Http\Controllers\Client\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'client.home')
+Route::get('/', [HomeController::class, 'index'])
     ->name('client.home');
 
 Route::view('/about-us', 'client.about')

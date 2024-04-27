@@ -405,8 +405,9 @@
                                         <div class="themesflat-spacer clearfix" data-desktop="41" data-mobile="35"
                                              data-smobile="35"></div>
                                         <div class="elm-button text-center">
-                                            <a href="javascript:void(0)" class="themesflat-button bg-accent">ABOUT
-                                                US</a>
+                                            <a href="{{ route('client.about') }}" class="themesflat-button bg-accent">
+                                                ABOUT US
+                                            </a>
                                         </div>
                                         <div class="themesflat-spacer clearfix" data-desktop="73" data-mobile="60"
                                              data-smobile="60"></div>
@@ -429,7 +430,7 @@
                                         <div class="themesflat-content-box clearfix" data-margin="0 25% 0 4.5%"
                                              data-mobilemargin="0 0 0 4.5%">
                                             <div class="themesflat-headings style-1 clearfix">
-                                                <h2 class="heading">WELCOME TO AUTORA</h2>
+                                                <h2 class="heading">WELCOME TO {{ strtoupper(config('app.name')) }}</h2>
                                                 <div
                                                     class="sep has-width w80 accent-bg margin-top-11 clearfix"></div>
                                                 <p class="sub-heading margin-top-30">We have successfully completed
@@ -482,8 +483,9 @@
                                             <div class="themesflat-spacer clearfix" data-desktop="42"
                                                  data-mobile="35" data-smobile="35"></div>
                                             <div class="elm-button">
-                                                <a href="javascript:void(0)" class="themesflat-button bg-white">GET
-                                                    IN TOUCH</a>
+                                                <a href="{{ route('client.contact') }}" class="themesflat-button bg-white">
+                                                    GET IN TOUCH
+                                                </a>
                                             </div>
                                         </div><!-- /.themesflat-content-box -->
                                         <div class="themesflat-spacer clearfix" data-desktop="75" data-mobile="60"
@@ -651,8 +653,9 @@
                                         <div class="themesflat-spacer clearfix" data-desktop="50" data-mobile="35"
                                              data-smobile="35"></div>
                                         <div class="elm-button text-center">
-                                            <a href="javascript:void(0)" class="themesflat-button bg-accent">ALL
-                                                SERVICES</a>
+                                            <a href="{{ route('client.services') }}" class="themesflat-button bg-accent">
+                                                ALL SERVICES
+                                            </a>
                                         </div>
                                         <div class="themesflat-spacer clearfix" data-desktop="73" data-mobile="60"
                                              data-smobile="60"></div>
