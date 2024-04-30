@@ -23,7 +23,7 @@ return new class extends Migration {
         foreach (SettingKeyEnum::cases() as $setting) {
             Setting::query()->create([
                 'label' => $setting->label(),
-                'key' => $setting->value,
+                'key' => $setting,
                 'value' => $setting->defaultValue(),
             ]);
         }

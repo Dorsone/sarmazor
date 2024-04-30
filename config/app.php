@@ -15,6 +15,14 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'available_locales' => [
+        'en' => 'English',
+        'ru' => 'Русский',
+        'uz' => "O'zbek",
+    ],
+
+    'default_locale' => 'uz',
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -39,7 +47,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +73,7 @@ return [
     |
     */
 
-    'timezone' => env('APP_TIMEZONE', 'UTC'),
+    'timezone' => env('APP_TIMEZONE', 'Asia/Tashkent'),
 
     /*
     |--------------------------------------------------------------------------

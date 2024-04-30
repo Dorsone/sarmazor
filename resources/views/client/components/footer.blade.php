@@ -17,21 +17,23 @@
                             <li>
                                 <div class="inner">
                                     <span class="fa fa-map-marker"></span>
-                                    <span class="text">PO BOX 16122 COLLINS STREET <span class="sl">West Victoria, NewYork</span></span>
+                                    <span class="text">
+                                        {{ strtoupper($address) }}
+                                    </span>
                                 </div>
                             </li>
 
                             <li>
                                 <div class="inner">
                                     <span class="fa fa-phone"></span>
-                                    <span class="text">CALL US : (+61) 3 8376 6284</span>
+                                    <span class="text">CALL US : {{ $phone }}</span>
                                 </div>
                             </li>
 
                             <li class="margin-top-7">
                                 <div class="inner">
                                     <span class=" font-size-14 fa fa-envelope"></span>
-                                    <span class="text">SUPPORT@NICHE_THEME</span>
+                                    <span class="text">{{ strtoupper($email) }}</span>
                                 </div>
                             </li>
                         </ul>
@@ -189,9 +191,13 @@
     <div id="bottom-bar-inner" class="container">
         <div class="bottom-bar-inner-wrap">
             <div class="bottom-bar-content">
-                <div id="copyright">© <span class="text">Construction Template. Design <a
-                            href="javascript:void(0)"
-                            class="text-accent">by @Niche_Theme</a></span>
+                <div id="copyright">
+                    <span class="text">
+                        <a target="_blank" style="color: #8c8c8c" href="https://mostbyte.uz/">
+                            © Mostbyte.</a>
+                        Developed
+                        <a target="_blank" class="text-accent" href="https://t.me/dorsoneee"> by Jasur Dustmurodov </a>
+                    </span>
                 </div>
             </div><!-- /.bottom-bar-content -->
 

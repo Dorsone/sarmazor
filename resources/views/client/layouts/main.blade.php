@@ -33,7 +33,7 @@
     <div id="page" class="clearfix">
         @include('client.components.header')
 
-        @if(request()->path() !== '/')
+        @if(!in_array(request()->path(), array_keys(config('app.available_locales'))))
             @include('client.components.breadcrumbs')
         @endif
 
