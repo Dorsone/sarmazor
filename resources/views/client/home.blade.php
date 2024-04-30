@@ -103,7 +103,7 @@
                                              data-splitin="none"
                                              data-splitout="none"
                                              data-responsive_offset="on">
-                                            <a href="javascript:void(0)"
+                                            <a href="{{ route('client.contact') }}"
                                                class="themesflat-button bg-accent big"><span>GET IN TOUCH</span></a>
                                         </div>
                                     </li>
@@ -202,7 +202,7 @@
                                              data-splitin="none"
                                              data-splitout="none"
                                              data-responsive_offset="on">
-                                            <a href="javascript:void(0)"
+                                            <a href="{{ route('client.contact') }}"
                                                class="themesflat-button bg-accent big"><span>GET IN TOUCH</span></a>
                                         </div>
                                     </li>
@@ -301,7 +301,7 @@
                                              data-splitin="none"
                                              data-splitout="none"
                                              data-responsive_offset="on">
-                                            <a href="javascript:void(0)"
+                                            <a href="{{ route('client.contact') }}"
                                                class="themesflat-button bg-accent big"><span>GET IN TOUCH</span></a>
                                         </div>
                                     </li>
