@@ -8,6 +8,8 @@
         "php": "^8.2",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
+        "orchid/crud": "^4.2",
+        "orchid/platform": "^14.23",
         "spatie/laravel-medialibrary": "^11.4",
         "spatie/laravel-translatable": "^6.6"
     },
